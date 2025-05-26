@@ -6,8 +6,8 @@ Este repositório contém a página da disciplina de **Lingua de Portuguesa**, d
 
 O projeto completo, integrando todas as disciplinas, está disponível no repositório do meu colega de equipe (João Pedro Mello):
 
-- **Repositório:** [Jo4oP324/Projeto_Integrador]([https://github.com/Jo4oP324/Projeto_Integrador](https://github.com/joaopedro08-dev/Projeto-Integrador))
-- **GitHub-Page:** [jo4op324.github.io/Projeto_Integrador]([https://jo4op324.github.io/Projeto_Integrador/](https://joaopedro08-dev.github.io/Projeto-Integrador/))
+- **Repositório:** https://github.com/joaopedro08-dev/Projeto-Integrador/
+- **GitHub-Page:** https://joaopedro08-dev.github.io/Projeto-Integrador/
 
 ## 🛠️ Tecnologias Utilizadas
 
