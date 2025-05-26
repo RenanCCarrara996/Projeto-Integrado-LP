@@ -9,6 +9,72 @@
 </head>
 
 <body>
+    <!--Background-->
+    <div class="svg-background">
+        <!-- Formas SVG simples -->
+        <svg width="100%" height="100%" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Círculo no canto superior direito -->
+            <circle cx="90%" cy="10%" r="100" fill="#005e9e" fill-opacity="0.05" />
+
+            <!-- Triângulo no canto inferior esquerdo -->
+            <polygon points="0,900 200,700 0,700" fill="#ff9800" fill-opacity="0.07" />
+
+            <!-- Retângulo no meio direito -->
+            <rect x="80%" y="50%" width="150" height="150" rx="20" fill="#e74c3c" fill-opacity="0.04" />
+
+            <!-- Ondas na parte inferior -->
+            <path d="M0,800 Q360,850 720,800 Q1080,750 1440,800 L1440,900 L0,900 Z" fill="#ff9800"
+                fill-opacity="0.05" />
+        </svg>
+        <svg width="100%" height="100%" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Círculo no canto superior direito -->
+            <circle cx="90%" cy="10%" r="100" fill="#005e9e" fill-opacity="0.05" />
+
+            <!-- Triângulo no canto inferior esquerdo -->
+            <polygon points="0,900 200,700 0,700" fill="#ff9800" fill-opacity="0.07" />
+
+            <!-- Retângulo no meio direito -->
+            <rect x="80%" y="50%" width="150" height="150" rx="20" fill="#e74c3c" fill-opacity="0.04" />
+
+            <!-- Ondas na parte inferior -->
+            <path d="M0,800 Q360,850 720,800 Q1080,750 1440,800 L1440,900 L0,900 Z" fill="#ff9800"
+                fill-opacity="0.05" />
+
+            <!-- Círculo pequeno no meio esquerdo -->
+            <circle cx="10%" cy="50%" r="50" fill="#005e9e" fill-opacity="0.03" />
+
+            <!-- Quadrado no topo central -->
+            <rect x="45%" y="5%" width="100" height="100" fill="#e74c3c" fill-opacity="0.03" />
+
+            <!-- Linha diagonal -->
+            <line x1="0" y1="0" x2="20%" y2="20%" stroke="#005e9e" stroke-width="2" stroke-opacity="0.05" />
+        </svg>
+        <svg width="100%" height="100%" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Cobrinha mais elaborada -->
+            <path d="M-100,400 
+                 C0,450 50,350 150,400 
+                 C250,450 300,350 400,400 
+                 C500,450 550,350 650,400 
+                 C750,450 800,350 900,400 
+                 C1000,450 1050,350 1150,400 
+                 C1250,450 1300,350 1400,400 
+                 C1500,450 1550,350 1650,400" stroke="#005e9e" stroke-width="10" fill="none" stroke-opacity="0.08"
+                class="snake-path" />
+
+            <!-- Cabeça da cobrinha (círculo) -->
+            <circle cx="1650" cy="400" r="15" fill="#005e9e" fill-opacity="0.2" class="snake-head" />
+
+            <!-- Outras formas SVG -->
+            <circle cx="90%" cy="10%" r="100" fill="#005e9e" fill-opacity="0.05" />
+            <polygon points="0,900 200,700 0,700" fill="#ff9800" fill-opacity="0.07" />
+            <rect x="80%" y="50%" width="150" height="150" rx="20" fill="#e74c3c" fill-opacity="0.04" />
+            <path d="M0,800 Q360,850 720,800 Q1080,750 1440,800 L1440,900 L0,900 Z" fill="#ff9800"
+                fill-opacity="0.05" />
+        </svg>
+    </div>
+
+
+    <!--Banner Header and Nav-->
     <header>
         <img src="Assets/img/lpbanner.png" alt="Banner do Modernismo" id="bannerlp">
     </header>
@@ -29,7 +95,13 @@
 
     <main>
 
-
+        <!--Video-->
+        <section id="video" class="section">
+            <h2>Resumo em Vídeo</h2>
+            <div class="container">
+                <video src="Assets/video_modernismo.mp4" controls width="640" height="360"></video>
+            </div>
+        </section>
         <!--Pesquisa-->
         <section id="pesquisa" class="section">
             <div class="pesquisa-content">
@@ -70,126 +142,127 @@
                     </div>
 
                 </article>
+                <div class="container2">
+                    <!--Características-->
+                    <article id="caracteristicas">
+                        <h3>Características</h3>
+                        <ul class="caracteristicas-list">
+                            <li>
+                                <h4>Nacionalismo crítico e ufanista</h4>
+                                <p>Busca por uma identidade cultural brasileira, valorizando aspectos nacionais sem
+                                    idealizações exageradas, mas com uma visão crítica sobre a realidade social e
+                                    cultural do país.</p>
+                            </li>
+                            <li>
+                                <h4>Valorização do cotidiano</h4>
+                                <p>Incorporação de temas e cenários do dia a dia brasileiro, retratando a vida comum, os
+                                    costumes e as experiências populares em detrimento de idealizações românticas.</p>
+                            </li>
+                            <li>
+                                <h4>Resgate das raízes culturais brasileiras</h4>
+                                <p>Recuperação de elementos da cultura nacional, como folclore, mitos, tradições
+                                    indígenas e regionais, para construir uma literatura que representasse a diversidade
+                                    do Brasil.</p>
+                            </li>
+                            <li>
+                                <h4>Críticas à realidade brasileira</h4>
+                                <p>Reflexão sobre os problemas sociais, econômicos e culturais do Brasil, denunciando
+                                    desigualdades, atrasos e contradições da sociedade da época.</p>
+                            </li>
+                            <li>
+                                <h4>Renovação da linguagem</h4>
+                                <p>Transformação da linguagem literária, adotando formas mais naturais, diretas e
+                                    próximas da oralidade, rompendo com os padrões formais e rígidos do passado.</p>
+                            </li>
+                            <li>
+                                <h4>Oposição ao parnasianismo e ao academicismo</h4>
+                                <p>Rejeição dos ideais parnasianos de perfeição formal e do academicismo tradicional,
+                                    propondo uma literatura mais livre e espontânea, contrária às normas rígidas.</p>
+                            </li>
+                            <li>
+                                <h4>Experimentações estéticas</h4>
+                                <p>Inovações na forma e no estilo, com a exploração de novas estruturas narrativas,
+                                    poéticas e visuais, desafiando as convenções artísticas tradicionais.</p>
+                            </li>
+                            <li>
+                                <h4>Renovações artísticas</h4>
+                                <p>Transformação dos padrões literários e artísticos, promovendo uma estética moderna
+                                    que dialogasse com as vanguardas europeias e a realidade brasileira.</p>
+                            </li>
+                            <li>
+                                <h4>Ironia, sarcasmo e irreverência</h4>
+                                <p>Uso de tom irônico, sarcástico e irreverente para criticar a sociedade, as tradições
+                                    e os valores estabelecidos, muitas vezes com humor provocador.</p>
+                            </li>
+                            <li>
+                                <h4>Caráter anárquico e destruidor</h4>
+                                <p>Atitude de ruptura com as normas estabelecidas, destruindo convenções literárias
+                                    tradicionais e propondo uma visão libertária e desafiadora.</p>
+                            </li>
+                            <li>
+                                <h4>Uso de versos livres e brancos</h4>
+                                <p>Adoção de versos sem métrica fixa ou rima obrigatória, permitindo maior liberdade
+                                    expressiva e refletindo a espontaneidade da linguagem modernista.</p>
+                            </li>
+                        </ul>
+                    </article>
 
-                <!--Características-->
-                <article id="caracteristicas">
-                    <h3>Características</h3>
-                    <ul class="caracteristicas-list">
-                        <li>
-                            <h4>Nacionalismo crítico e ufanista</h4>
-                            <p>Busca por uma identidade cultural brasileira, valorizando aspectos nacionais sem
-                                idealizações exageradas, mas com uma visão crítica sobre a realidade social e
-                                cultural do país.</p>
-                        </li>
-                        <li>
-                            <h4>Valorização do cotidiano</h4>
-                            <p>Incorporação de temas e cenários do dia a dia brasileiro, retratando a vida comum, os
-                                costumes e as experiências populares em detrimento de idealizações românticas.</p>
-                        </li>
-                        <li>
-                            <h4>Resgate das raízes culturais brasileiras</h4>
-                            <p>Recuperação de elementos da cultura nacional, como folclore, mitos, tradições
-                                indígenas e regionais, para construir uma literatura que representasse a diversidade
-                                do Brasil.</p>
-                        </li>
-                        <li>
-                            <h4>Críticas à realidade brasileira</h4>
-                            <p>Reflexão sobre os problemas sociais, econômicos e culturais do Brasil, denunciando
-                                desigualdades, atrasos e contradições da sociedade da época.</p>
-                        </li>
-                        <li>
-                            <h4>Renovação da linguagem</h4>
-                            <p>Transformação da linguagem literária, adotando formas mais naturais, diretas e
-                                próximas da oralidade, rompendo com os padrões formais e rígidos do passado.</p>
-                        </li>
-                        <li>
-                            <h4>Oposição ao parnasianismo e ao academicismo</h4>
-                            <p>Rejeição dos ideais parnasianos de perfeição formal e do academicismo tradicional,
-                                propondo uma literatura mais livre e espontânea, contrária às normas rígidas.</p>
-                        </li>
-                        <li>
-                            <h4>Experimentações estéticas</h4>
-                            <p>Inovações na forma e no estilo, com a exploração de novas estruturas narrativas,
-                                poéticas e visuais, desafiando as convenções artísticas tradicionais.</p>
-                        </li>
-                        <li>
-                            <h4>Renovações artísticas</h4>
-                            <p>Transformação dos padrões literários e artísticos, promovendo uma estética moderna
-                                que dialogasse com as vanguardas europeias e a realidade brasileira.</p>
-                        </li>
-                        <li>
-                            <h4>Ironia, sarcasmo e irreverência</h4>
-                            <p>Uso de tom irônico, sarcástico e irreverente para criticar a sociedade, as tradições
-                                e os valores estabelecidos, muitas vezes com humor provocador.</p>
-                        </li>
-                        <li>
-                            <h4>Caráter anárquico e destruidor</h4>
-                            <p>Atitude de ruptura com as normas estabelecidas, destruindo convenções literárias
-                                tradicionais e propondo uma visão libertária e desafiadora.</p>
-                        </li>
-                        <li>
-                            <h4>Uso de versos livres e brancos</h4>
-                            <p>Adoção de versos sem métrica fixa ou rima obrigatória, permitindo maior liberdade
-                                expressiva e refletindo a espontaneidade da linguagem modernista.</p>
-                        </li>
-                    </ul>
-                </article>
+                    <!--Produções literárias-->
+                    <article id="producoes">
 
-                <!--Produções literárias-->
-                <article id="producoes">
+                        <h3>Produções Literárias</h3>
+                        <ul class="caracteristicas-list">
+                            <li>
+                                <h4>Poemas livres e revolucionários</h4>
+                                <p>Produções poéticas com versos livres, sem métrica fixa nem rima obrigatória, que
+                                    rompem
+                                    com os padrões parnasianos e academicistas, como em "Pauliceia Desvairada", de Mário
+                                    de
+                                    Andrade.</p>
+                            </li>
+                            <li>
+                                <h4>Manifestos literários</h4>
+                                <p>Textos de caráter ideológico e provocador que expressam os princípios do movimento
+                                    modernista, como o "Manifesto Pau-Brasil" (1924) e o "Manifesto Antropofágico"
+                                    (1928),
+                                    de Oswald de Andrade.</p>
+                            </li>
+                            <li>
+                                <h4>Revistas culturais e artísticas</h4>
+                                <p>Veículos como a revista <em>Klaxon</em> (1922) serviram como plataforma de divulgação
+                                    das
+                                    ideias modernistas, misturando textos, artes visuais e críticas culturais.</p>
+                            </li>
+                            <li>
+                                <h4>Crônicas urbanas e modernas</h4>
+                                <p>Textos curtos que retratam o cotidiano urbano, os hábitos sociais e as contradições
+                                    da
+                                    vida moderna no Brasil da década de 1920, com linguagem coloquial e crítica.</p>
+                            </li>
+                            <li>
+                                <h4>Romances experimentais</h4>
+                                <p>Prosa que quebra estruturas tradicionais, introduz narrativas fragmentadas, foco na
+                                    psicologia das personagens e na crítica social, como em "Macunaíma", de Mário de
+                                    Andrade.</p>
+                            </li>
+                            <li>
+                                <h4>Ensaios e reflexões sobre a identidade nacional</h4>
+                                <p>Textos reflexivos que buscam compreender o Brasil, suas contradições, culturas
+                                    regionais
+                                    e miscigenação, formando uma base crítica para a construção de uma literatura
+                                    autenticamente brasileira.</p>
+                            </li>
+                            <li>
+                                <h4>Peças e performances artísticas</h4>
+                                <p>Criações multimodais e performáticas que misturavam teatro, poesia falada e música,
+                                    com
+                                    forte apelo visual e sonoro, utilizadas como forma de manifestação modernista.</p>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
 
-                    <h3>Produções Literárias</h3>
-                    <ul class="caracteristicas-list">
-                        <li>
-                            <h4>Poemas livres e revolucionários</h4>
-                            <p>Produções poéticas com versos livres, sem métrica fixa nem rima obrigatória, que
-                                rompem
-                                com os padrões parnasianos e academicistas, como em "Pauliceia Desvairada", de Mário
-                                de
-                                Andrade.</p>
-                        </li>
-                        <li>
-                            <h4>Manifestos literários</h4>
-                            <p>Textos de caráter ideológico e provocador que expressam os princípios do movimento
-                                modernista, como o "Manifesto Pau-Brasil" (1924) e o "Manifesto Antropofágico"
-                                (1928),
-                                de Oswald de Andrade.</p>
-                        </li>
-                        <li>
-                            <h4>Revistas culturais e artísticas</h4>
-                            <p>Veículos como a revista <em>Klaxon</em> (1922) serviram como plataforma de divulgação
-                                das
-                                ideias modernistas, misturando textos, artes visuais e críticas culturais.</p>
-                        </li>
-                        <li>
-                            <h4>Crônicas urbanas e modernas</h4>
-                            <p>Textos curtos que retratam o cotidiano urbano, os hábitos sociais e as contradições
-                                da
-                                vida moderna no Brasil da década de 1920, com linguagem coloquial e crítica.</p>
-                        </li>
-                        <li>
-                            <h4>Romances experimentais</h4>
-                            <p>Prosa que quebra estruturas tradicionais, introduz narrativas fragmentadas, foco na
-                                psicologia das personagens e na crítica social, como em "Macunaíma", de Mário de
-                                Andrade.</p>
-                        </li>
-                        <li>
-                            <h4>Ensaios e reflexões sobre a identidade nacional</h4>
-                            <p>Textos reflexivos que buscam compreender o Brasil, suas contradições, culturas
-                                regionais
-                                e miscigenação, formando uma base crítica para a construção de uma literatura
-                                autenticamente brasileira.</p>
-                        </li>
-                        <li>
-                            <h4>Peças e performances artísticas</h4>
-                            <p>Criações multimodais e performáticas que misturavam teatro, poesia falada e música,
-                                com
-                                forte apelo visual e sonoro, utilizadas como forma de manifestação modernista.</p>
-                        </li>
-                    </ul>
-
-                </article>
-
+                <!--Curiosidades-->
                 <article class="curiosidades">
                     <h3>Curiosidades e Outras Informações</h3>
                     <ul class="caracteristicas-list">
@@ -696,6 +769,8 @@
         <section id="quiz" class="section">
             <div class="container">
                 <h2>Quiz Preparatório</h2>
+                <img src="Assets/img/Infografico primeira fase modernismo.png" alt=""
+                    style="display: flex; justify-content: center; align-items: center;">
                 <div class="quiz-container">
                     <div class="quiz-intro">
                         <p>Teste seus conhecimentos sobre a primeira fase do Modernismo brasileiro com este quiz
@@ -742,6 +817,17 @@
     </footer>
 
     <script src="script/portugues.js"></script>
+
+    <div vw class="enabled ">
+        <div vw-access-button class="active "></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper "></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js "></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
